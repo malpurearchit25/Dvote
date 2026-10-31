@@ -17,7 +17,7 @@ cd D:\Archit\Others\gdg-dvote
 
 Open the **Local URL printed in the terminal**, normally http://127.0.0.1:5173. Keep the terminal open; use Ctrl+C to stop. If that port is occupied, Vite prints a different port.
 
-You can also double-click `run.cmd` to start the frontend. The Windows launcher uses Node.js from PATH or this computer's bundled Codex runtime. The dependencies have already been installed here.
+You can also double-click `run.cmd` to start the frontend. The Windows launcher uses Node.js from PATH. Run `run.cmd install` before the first launch.
 
 The initial workspace is an explicitly labeled **interactive demo**. Click **Connect wallet** to use a simulated account, create a proposal, and vote. This mode uses browser storage and fictional sample totals; it does not call a blockchain. Demo account connection resets on page reload, but proposals and voting history persist. Reconnect to see your history. Reset demo data from the network menu.
 
@@ -64,7 +64,7 @@ Restarting the Hardhat node clears local state. Run `deploy` and optionally `see
 
 ## Installation on another computer
 
-Prerequisites: Node.js 22 or 24 LTS and pnpm. On Windows, the helper can also locate the bundled Codex runtime when present.
+Prerequisites: Node.js 22 or 24 LTS and pnpm, both available on PATH.
 
 ```powershell
 cd D:\Archit\Others\gdg-dvote
